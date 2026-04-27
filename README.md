@@ -1,16 +1,24 @@
 # Simulating Calcium Dynamics and Independent Bouton Modulation in the Mushroom Body γ-Lobe
 
-This repository contains code for simulating calcium activity in individual γ-lobe boutons using both single-compartment and multi-compartment model variants. The calcium-activity model is fitted to experimental data from Manoim et al. (2022) (https://doi.org/10.1016/j.cub.2022.09.007
-) and incorporates inhibitory lateral KC–KC interactions (Moshe Panas, internal communications).
+Computational model of calcium activity in individual γ-lobe boutons in *Drosophila melanogaster*, implemented using single- and multi-compartment frameworks.
 
-The implementation is based on the original KC_KC_interactions_project repository by Ibrahim Tunc and has been significantly extended for research and experimentation purposes.
+The model is fitted to experimental data from Manoim et al. (2022) and incorporates inhibitory KC–KC interactions. It builds upon the KC_KC_interactions project by Ibrahim Tunc and has been significantly extended during my Bachelor’s thesis and subsequent research assistant position in the Nawrot Lab.
 
-In addition, the repository explores mechanisms underlying independent bouton modulation as described in Bilz et al. (2020) (https://doi.org/10.1016/j.neuron.2020.03.010
-) by simulating calcium dynamics in individual γ-lobe boutons during aversive olfactory conditioning.
+The repository also investigates independent bouton modulation as described in Bilz et al. (2020), enabling direct comparison between simulated calcium dynamics and in vivo calcium imaging data during olfactory conditioning.
 
-These simulations can be directly compared to calcium trace recordings reported in Bilz et al. (2020), as the corresponding experimental dataset is included in this repository, along with code for analysis and visualization of the recordings.
+---
 
+## 🔬 Key Features
+- Single- and multi-compartment bouton activity models  
+- KC–KC inhibitory interaction dynamics  
+- Data-driven parameter fitting  
+- Comparison with experimental calcium traces  
 
+## 📊 Data
+Includes experimental datasets and analysis tools for calcium imaging data from Bilz et al. (2020).
+
+## ⚙️ Tech
+Python · NumPy · SciPy · Matplotlib
 
 ---
 
