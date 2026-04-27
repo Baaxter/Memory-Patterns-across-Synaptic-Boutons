@@ -16,7 +16,7 @@ The repository also investigates independent bouton modulation as described in B
 - Data-driven parameter fitting  
 - Comparison with experimental calcium traces  
 
-## 🧾 Conference Poster on this project
+## 🧾 Conference Poster on this Project
 
 <p align="center">
   <img src="poster/IBM_goettingen_poster.svg" width="750"/>
