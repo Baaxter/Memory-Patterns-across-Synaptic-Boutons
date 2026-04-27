@@ -1,10 +1,12 @@
 # Simulating Calcium Dynamics and Independent Bouton Modulation in the Mushroom Body γ-Lobe
 
-Computational model of calcium activity in individual γ-lobe boutons in *Drosophila melanogaster*, implemented using single- and multi-compartment frameworks.
+Computational model of calcium activity in individual γ-lobe boutons in Drosophila melanogaster, implemented using single- and multi-compartment frameworks.
 
-The model is fitted to experimental data from Manoim et al. (2022) and incorporates inhibitory KC–KC interactions. It builds upon the KC_KC_interactions project by Ibrahim Tunc and has been significantly extended during my Bachelor’s thesis and subsequent research assistant position in the Nawrot Lab.
+The model is fitted to experimental data from Manoim et al. (2022) (https://doi.org/10.1016/j.cub.2022.09.007
+) and incorporates inhibitory KC–KC interactions. It builds upon the KC_KC_interactions project by Ibrahim Tunc and has been significantly extended during my Bachelor’s thesis and subsequent research assistant position in the Nawrot Lab.
 
-The repository also investigates independent bouton modulation as described in Bilz et al. (2020), enabling direct comparison between simulated calcium dynamics and in vivo calcium imaging data during olfactory conditioning.
+The repository also investigates independent bouton modulation as described in Bilz et al. (2020) (https://doi.org/10.1016/j.neuron.2020.03.010
+), enabling direct comparison between simulated calcium dynamics and in vivo calcium imaging data during olfactory conditioning.
 
 ---
 
@@ -13,6 +15,12 @@ The repository also investigates independent bouton modulation as described in B
 - KC–KC inhibitory interaction dynamics  
 - Data-driven parameter fitting  
 - Comparison with experimental calcium traces  
+
+## 🧾 Conference Poster on this project
+
+<p align="center">
+  <img src="poster/IBM_goettingen_poster.svg" width="750"/>
+</p>
 
 ## 📊 Data
 Includes experimental datasets and analysis tools for calcium imaging data from Bilz et al. (2020).
